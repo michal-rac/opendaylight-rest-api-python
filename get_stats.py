@@ -207,6 +207,8 @@ try:
     print('as returned from the controller counters via REST API.')
     print('Measured in ' + str(interval) + ' second(s) increments.')
     print('\n')
-    # MAIN PROGRAM END
+
 except Exception as ex:
     print('Error in: ',str(ex))
+    
+# MAIN PROGRAM END
